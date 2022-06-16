@@ -1,10 +1,8 @@
 import styled from "styled-components";
 import { Content } from "../circular-image";
-import Img from '../assets/4.jpg';
+import Img from '../assets/3.png';
 
 const Container = styled.div`
-width: 100vw;
-height: 100vh;
 display:flex;
 justify-content: center;
 `;
@@ -15,7 +13,7 @@ cursor: pointer;
 margin-top: 0.5%;
 display: flex;
 align-items: center;
-height: 7%;
+height: 65px;
 background-color: #4663b9;
 
 `;
@@ -35,7 +33,7 @@ justify-content: flex-end;
 flex: 1;
 font-size: 25px;
 font-weight: 600;
-letter-spacing: 2px;
+letter-spacing: 1.5px;
 margin-right: 1%;
 color: ${props => props.color === "black" ? "black" : "white"};
 `;
@@ -54,8 +52,8 @@ function Board() {
         <Container>
             <Div>
                 <Content src={Img} />
-                <Name color="white">Hussain Golwala</Name>
-                <Points color="white">208000</Points>
+                <Name color="white">Jenny Wilson</Name>
+                <Points color="white">3641106</Points>
                 <Point color="white">points</Point>
             </Div>
         </Container>
